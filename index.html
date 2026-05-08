@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DATAWI Consulting — Cabinet de conseil français spécialisé en Intelligence Artificielle et Ingénierie Logicielle. Agréé Crédit Impôt Recherche par le Ministère de l'Enseignement supérieur et de la Recherche.">
+    <meta name="keywords" content="conseil IA, intelligence artificielle, ingénierie logicielle, machine learning, data science, France, Guadeloupe, agrément CIR, crédit impôt recherche, DATAWI">
+    <title>DATAWI Consulting — Conseil en IA & Ingénierie Logicielle</title>
+    <link rel="icon" type="image/png" href="assets/datawi-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo-link" aria-label="DATAWI Consulting">
+                <img src="assets/datawi-logo.png" alt="DATAWI Consulting" class="logo">
+            </a>
+            <nav class="nav" aria-label="Navigation principale">
+                <ul class="nav-list">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#approche">Approche</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary btn-header">Nous contacter</a>
+            <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="hero-shape shape-1"></div>
+            <div class="hero-shape shape-2"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <span class="hero-badge">Cabinet de conseil français</span>
+                <h1 class="hero-title">
+                    L'intelligence artificielle <span class="gradient-text">au service</span> de votre performance.
+                </h1>
+                <p class="hero-subtitle">
+                    DATAWI accompagne les entreprises dans la conception, le développement
+                    et le déploiement de solutions d'IA et de logiciels sur mesure. De la stratégie
+                    à la mise en production, nous transformons vos enjeux métier en résultats concrets.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Démarrer un projet</a>
+                    <a href="#services" class="btn btn-ghost">Découvrir nos services →</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">2020</div>
+                        <div class="stat-label">Année de fondation</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">Agrément CIR</div>
+                        <div class="stat-label">Crédit Impôt Recherche</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">Senior</div>
+                        <div class="stat-label">Cabinet indépendant</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CIR callout -->
+    <section class="cir-strip">
+        <div class="container cir-inner">
+            <div class="cir-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m9 12 2 2 4-4"/>
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+            </div>
+            <div class="cir-text">
+                <strong>Agrément Crédit Impôt Recherche</strong>
+                <span>Cabinet agréé par le Ministère de l'Enseignement supérieur et de la Recherche. Nos prestations sont éligibles au CIR.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Nos services</span>
+                <h2>Une offre complète, du conseil à la production.</h2>
+                <p class="section-subtitle">
+                    Quatre domaines d'expertise pour répondre à l'ensemble de vos besoins,
+                    avec une exigence : la valeur métier livrée.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M12 2a4 4 0 0 0-4 4v1H6a4 4 0 0 0 0 8h2v1a4 4 0 0 0 8 0v-1h2a4 4 0 0 0 0-8h-2V6a4 4 0 0 0-4-4Z"/>
+                            <path d="M12 8v8M8 12h8"/>
+                        </svg>
+                    </div>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Modèles prédictifs, NLP, vision par ordinateur, IA générative. Nous concevons et industrialisons des modèles fiables, explicables et performants.</p>
+                    <ul class="service-list">
+                        <li>Machine Learning & Deep Learning</li>
+                        <li>LLM & IA générative</li>
+                        <li>MLOps & mise en production</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/>
+                        </svg>
+                    </div>
+                    <h3>Ingénierie Logicielle</h3>
+                    <p>Applications web, plateformes SaaS, APIs, architectures cloud-native. Du MVP à la mise à l'échelle, avec un code maintenable et testé.</p>
+                    <ul class="service-list">
+                        <li>Architecture & développement full-stack</li>
+                        <li>Cloud (AWS, GCP, Azure) & DevOps</li>
+                        <li>Refonte & modernisation de SI</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                            <path d="M3 5v6c0 1.66 4.03 3 9 3s9-1.34 9-3V5M3 11v6c0 1.66 4.03 3 9 3s9-1.34 9-3v-6"/>
+                        </svg>
+                    </div>
+                    <h3>Data & Plateformes</h3>
+                    <p>Construction de fondations data robustes : pipelines, data warehouses, lakehouses, gouvernance. La donnée juste, au bon moment, au bon endroit.</p>
+                    <ul class="service-list">
+                        <li>Data engineering & ETL</li>
+                        <li>Data warehouse & analytics</li>
+                        <li>Gouvernance & qualité de la donnée</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <circle cx="12" cy="12" r="9"/>
+                            <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6"/>
+                        </svg>
+                    </div>
+                    <h3>Conseil & Stratégie</h3>
+                    <p>Cadrage, audit, roadmap IA & data. Nous vous aidons à identifier les cas d'usage à fort impact et à structurer votre transformation.</p>
+                    <ul class="service-list">
+                        <li>Audit & diagnostic data/IA</li>
+                        <li>Cadrage de cas d'usage</li>
+                        <li>Roadmap & accompagnement</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approche -->
+    <section class="approach" id="approche">
+        <div class="container approach-inner">
+            <div class="approach-content">
+                <span class="eyebrow">Notre approche</span>
+                <h2>Pragmatique, mesurée, alignée sur votre métier.</h2>
+                <p class="approach-lead">
+                    Pas de promesses miraculeuses, pas de slides creuses. Nous travaillons en cycles
+                    courts, avec des livrables concrets à chaque étape, et un objectif partagé :
+                    générer de la valeur business mesurable.
+                </p>
+
+                <div class="approach-steps">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-body">
+                            <h4>Comprendre</h4>
+                            <p>Immersion dans votre contexte, écoute de vos équipes, cartographie des enjeux.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <div class="step-body">
+                            <h4>Cadrer</h4>
+                            <p>Identification des cas d'usage prioritaires, définition des indicateurs de succès.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-body">
+                            <h4>Construire</h4>
+                            <p>Itérations courtes, prototypage rapide, mise en production maîtrisée.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">04</div>
+                        <div class="step-body">
+                            <h4>Pérenniser</h4>
+                            <p>Transfert de compétences, monitoring, amélioration continue.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="approach-visual" aria-hidden="true">
+                <div class="visual-card card-1">
+                    <div class="visual-dot"></div>
+                    <span>Cadrage stratégique</span>
+                </div>
+                <div class="visual-card card-2">
+                    <div class="visual-dot"></div>
+                    <span>POC en 4 semaines</span>
+                </div>
+                <div class="visual-card card-3">
+                    <div class="visual-dot"></div>
+                    <span>Mise en production</span>
+                </div>
+                <div class="visual-card card-4">
+                    <div class="visual-dot"></div>
+                    <span>Suivi & MLOps</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="expertise" id="expertise">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Pourquoi DATAWI</span>
+                <h2>L'expertise pointue, sans la complexité des grands cabinets.</h2>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Équipe senior</h3>
+                    <p>Des profils issus de grandes entreprises technologiques internationales et de startups innovantes. Opérationnels dès le premier jour.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Engagement résultat</h3>
+                    <p>Nous nous engageons sur des livrables, pas sur des jours-hommes. Votre succès est notre indicateur.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Transparence totale</h3>
+                    <p>Méthodes, code, modèles : tout est documenté, partagé, transférable à vos équipes.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Souveraineté des données</h3>
+                    <p>Hébergement européen, conformité RGPD, choix technologiques respectueux de vos contraintes.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Time-to-value rapide</h3>
+                    <p>Premier prototype en quelques semaines. Nous prouvons la valeur avant d'industrialiser.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M20 6 9 17l-5-5"/>
+                        </svg>
+                    </div>
+                    <h3>Accompagnement sur-mesure</h3>
+                    <p>Une structure à taille humaine, une relation directe avec les experts qui livrent. Pas d'intermédiaire, pas de plaquette générique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <span class="eyebrow eyebrow-light">Parlons-en</span>
+                    <h2>Un projet, une idée, une question ?</h2>
+                    <p>
+                        Échangeons sur vos enjeux. Un premier rendez-vous de 30 minutes,
+                        gratuit et sans engagement, pour qualifier ensemble votre besoin.
+                    </p>
+                    <div class="cta-actions">
+                        <a href="mailto:contact@datawi.fr" class="btn btn-primary btn-large">
+                            contact@datawi.fr
+                        </a>
+                    </div>
+                </div>
+                <div class="cta-info">
+                    <div class="info-block">
+                        <h4>Siège</h4>
+                        <p>Guadeloupe, France</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Réponse</h4>
+                        <p>Sous 24h ouvrées</p>
+                    </div>
+                    <div class="info-block">
+                        <h4>Agrément CIR</h4>
+                        <p>Prestations éligibles au<br>Crédit Impôt Recherche</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/datawi-logo.png" alt="DATAWI Consulting" class="footer-logo">
+                <p>Cabinet de conseil français spécialisé en Intelligence Artificielle et Ingénierie Logicielle.</p>
+            </div>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#services">Intelligence Artificielle</a></li>
+                        <li><a href="#services">Ingénierie Logicielle</a></li>
+                        <li><a href="#services">Data & Plateformes</a></li>
+                        <li><a href="#services">Conseil & Stratégie</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Cabinet</h5>
+                    <ul>
+                        <li><a href="#approche">Approche</a></li>
+                        <li><a href="#expertise">Expertise</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="mailto:contact@datawi.fr">contact@datawi.fr</a></li>
+                        <li>Guadeloupe, France</li>
+                        <li>Agrément CIR</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <p>© 2026 DATAWI Consulting. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Header shadow on scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        // Mobile menu
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav');
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('open');
+            toggle.classList.toggle('open', open);
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.querySelectorAll('.nav-list a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Reveal on scroll
+        const io = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('revealed');
+                    io.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.service-card, .expertise-card, .step, .visual-card, .section-header, .approach-content > *').forEach(el => {
+            el.classList.add('reveal');
+            io.observe(el);
+        });
+    </script>
+</body>
+</html>
