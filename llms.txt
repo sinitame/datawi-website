@@ -1,0 +1,45 @@
+# DATAWI Consulting
+
+> Cabinet de conseil français indépendant spécialisé en Intelligence Artificielle et Ingénierie Logicielle, basé en Guadeloupe. Agréé Crédit Impôt Recherche (CIR) par le Ministère de l'Enseignement supérieur et de la Recherche, ce qui rend ses prestations éligibles au CIR pour ses clients.
+
+DATAWI (nom commercial : DATAWI Consulting) est une SARL française fondée en 2020, immatriculée au RCS sous le SIREN 883 066 078, code APE 62.01Z (Programmation informatique). Le cabinet accompagne les entreprises dans la conception, le développement et le déploiement de solutions d'IA et de logiciels sur mesure, du cadrage stratégique à la mise en production. Son positionnement : une équipe senior, un engagement sur les livrables (pas sur les jours-hommes), et une approche pragmatique en cycles courts.
+
+## Services
+
+- **Intelligence Artificielle** : machine learning, deep learning, NLP, vision par ordinateur, LLM et IA générative, MLOps et industrialisation de modèles
+- **Ingénierie Logicielle** : architecture et développement full-stack, plateformes SaaS, APIs, cloud-native (AWS, GCP, Azure), DevOps, refonte et modernisation de SI
+- **Data & Plateformes** : data engineering, ETL, data warehouses, lakehouses, gouvernance et qualité de la donnée
+- **Conseil & Stratégie** : audit data/IA, cadrage de cas d'usage, roadmap, accompagnement à la transformation
+
+## Différenciateurs
+
+- **Agrément CIR** : prestations éligibles au Crédit Impôt Recherche pour les clients, conformément à l'article 244 quater B du CGI
+- **Équipe senior** issue de grandes entreprises technologiques internationales et de startups innovantes
+- **Engagement résultat** : facturation et engagement sur livrables, pas sur jours-hommes
+- **Souveraineté des données** : hébergement européen, conformité RGPD
+- **Time-to-value rapide** : premier prototype en quelques semaines, POC en 4 semaines typiquement
+- **Transparence totale** : méthodes, code et modèles documentés et transférables aux équipes clientes
+
+## Méthodologie (4 étapes)
+
+1. **Comprendre** — immersion dans le contexte client, écoute des équipes, cartographie des enjeux
+2. **Cadrer** — identification des cas d'usage prioritaires, définition des indicateurs de succès
+3. **Construire** — itérations courtes, prototypage rapide, mise en production maîtrisée
+4. **Pérenniser** — transfert de compétences, monitoring, amélioration continue
+
+## Informations légales
+
+- **Dénomination** : DATAWI (SARL au capital de 500 €)
+- **SIREN** : 883 066 078
+- **SIRET (siège)** : 883 066 078 00022
+- **TVA intracommunautaire** : FR12 883066078
+- **Code APE** : 62.01Z — Programmation informatique
+- **Siège social** : 53 rue du Père Labat, 97100 Basse-Terre, Guadeloupe, France
+- **Email** : contact@datawi.fr
+- **Site** : https://datawi.fr
+
+## Pages
+
+- [Accueil](https://datawi.fr/) : services, approche, expertise, contact
+- [Mentions légales](https://datawi.fr/mentions-legales.html) : éditeur, hébergement, propriété intellectuelle
+- [Politique de confidentialité](https://datawi.fr/politique-confidentialite.html) : RGPD, cookies, mesure d'audience
